@@ -1,0 +1,16 @@
+{
+  "EVENT_BASE_URL": "https://eventhub.rahulshettyacademy.com",
+  "eventData": {
+    "description": "Best QA Automation Event",
+    "city": "Rome",
+    "venue": "Colosseum",
+    "date": "2026-07-28T10:30",
+    "price": "100",
+    "seats": "50"
+  },
+  "customerData": {
+    "fullName": "Berk Acar",
+    "email": "berkacar@mailinator.com",
+    "phone": "1234567890"
+  }
+}

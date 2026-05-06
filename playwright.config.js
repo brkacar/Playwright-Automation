@@ -14,7 +14,7 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
   testDir: './tests',
-  timeout: 30 * 1000,
+  timeout: 40 * 1000,
   expect: {
     timeout: 5 * 1000,
   },
@@ -33,7 +33,10 @@ export default defineConfig({
     /* Base URL to use in actions like `await page.goto('')`. */
     // baseURL: 'http://localhost:3000',
     browserName: 'chromium',
-    headless: false,
+    headless: true,
+    screenshot: 'only-on-failure',
+    trace: 'on',
+    baseURL: 'https://rahulshettyacademy.com'
 
     // /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     // trace: 'on-first-retry',
